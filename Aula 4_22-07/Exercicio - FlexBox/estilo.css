@@ -1,0 +1,214 @@
+#container{
+    background-color: bisque;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: absolute;
+}
+
+#cont{
+    background-color: bisque;
+    padding: -20px;
+    margin-left: -20px;
+    position: absolute;
+    display: flex;
+    flex-direction: row
+}
+
+#carne{
+    width: 800px;
+    height: 400px;
+    align-content: center;
+    margin-left: 500px;
+}
+
+.nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 25px;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    display: inline
+}
+
+#logo{
+    /* text-align: center; */
+    margin-left: 1300px;
+    margin-bottom: 40px;
+}
+
+header{
+    display: flex;
+    align-content: center;
+    margin-left: 700px;
+}
+
+.nomeProduto {
+    width: 400px;
+    height: 80px;
+    text-align: center;
+    background-color: rgba(131, 124, 116, 0.5);
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    vertical-align: middle;
+    line-height: 80px;
+}
+
+.verMais {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(116, 109, 109);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+  
+.etiqueta {
+    width: 65px;
+    height: 65px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 65px;
+}
+
+.divs img {
+    top: 35px;
+    left: 35px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+  }
+
+#foto1{
+    top: 30px;
+    position: relative;
+}
+
+#nome1{
+    left: 35px;
+    top: -180px;
+    position: relative;
+}
+
+#etFoto1{
+    background-color: rgba(32, 134, 236, 0.65);
+    top: -506px;
+    left: 370px;
+    position: relative;
+}
+
+#verFoto1{
+    left: 35px;
+    top: -280px;
+    position: relative;
+}
+
+#texto1{
+    font-size: 12px;
+    left: 35px;
+    top: -100px;
+    position: relative;
+}
+
+#foto2{
+    left: 200px;
+    top: 30px;
+    position: relative;
+}
+
+#nome2{
+    left: 200px;
+    top: -180px;
+    position: relative;
+}
+
+#etFoto2{
+    background-color: rgba(32, 134, 236, 0.65);
+    top: -506px;
+    left: 540px;
+    position: relative;
+}
+
+#verFoto2{
+    left: 200px;
+    top: -280px;
+    position: relative;
+}
+
+#texto2{
+    font-size: 12px;
+    left: 200px;
+    top: -100px;
+    position: relative;
+}
+
+#foto3{
+    left: 400px;
+    top: 30px;
+    position: relative;
+}
+
+#nome3{
+    left: 400px;
+    top: -180px;
+    position: relative;
+}
+
+#etFoto3{
+    background-color: rgba(32, 134, 236, 0.65);
+    top: -506px;
+    left: 740px;
+    position: relative;
+}
+
+#verFoto3{
+    left: 400px;
+    top: -280px;
+    position: relative;
+}
+
+#texto3{
+    font-size: 12px;
+    left: 400px;
+    top: -100px;
+    position: relative;
+}
+
+#foto4{
+    left: 600px;
+    top: 30px;
+    position: relative;
+}
+
+#nome4{
+    left: 600px;
+    top: -180px;
+    position: relative;
+}
+
+#etFoto4{
+    background-color: rgba(32, 134, 236, 0.65);
+    top: -506px;
+    left: 940px;
+    position: relative;
+}
+
+#verFoto4{
+    left: 600px;
+    top: -280px;
+    position: relative;
+}
+
+#texto4{
+    font-size: 12px;
+    left: 600px;
+    top: -100px;
+    position: relative;
+}

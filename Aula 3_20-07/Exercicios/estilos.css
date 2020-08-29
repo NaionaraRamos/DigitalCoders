@@ -1,0 +1,82 @@
+body{
+    background-color: aqua;
+    background-image: url('imagens/folhas.png');
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.sect{
+    width: 960px;
+    padding: 30px;
+    border-style: dashed;
+    border-color: black;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 800px;
+}
+
+.destaque {
+    background-color: greenyellow;
+    color: orangered;
+    font-size: 22px;
+}
+
+.sec{
+    padding: 30px;
+    margin-top: 20px;
+}
+
+#A{
+    height: 100px;
+    background-color: darkorange;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#B{
+    background-color: chartreuse;
+    width: 300px;
+    height: 300px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#C{
+    width: 960px;
+    height: 300px;
+    float: right;
+    vertical-align: middle;
+    background-color: blueviolet;
+    /* position: relative; */
+}
+
+#D{
+   /*  width: 960px; */
+    background-color: aqua;
+    text-align: center;
+    margin-top: 340px;
+}
+
+.dados-pessoais{
+    background-color: aqua;
+}
+
+*{box-sizing: border-box;}
+
+.formacao{
+    background-color: blueviolet;
+}
+
+.experiencia{
+    background-color: chartreuse;
+}
+
+.conhecimentos-especificos{
+    background-color: coral;
+}
+
+.idiomas{
+    background-color: deeppink;
+}

@@ -1,0 +1,40 @@
+#container{
+    width: 1200px;
+    height: 500px;
+    background-color: bisque;
+    border: aquamarine solid 5px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100vw;
+    height: 0.2vh;
+    border: chartreuse solid 3px;
+    background-color: coral;
+}
+
+#A{
+    width: 20.83%;
+    height: 50px;
+    border: black solid 1px;
+}
+
+#A h1{
+    font-size: 2em;
+}
+
+#A p{
+    font-size: 1em;
+}
+
+#B{
+    width: 66.67%;
+    height: 50px;
+    border: orangered solid 1px;
+}
+
+#C{
+    width: 8.33%;
+    height: 50px;
+    border: blueviolet solid 1px;
+}
