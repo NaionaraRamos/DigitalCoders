@@ -1,0 +1,383 @@
+body{
+  background-color: turquoise;
+}
+
+#header {
+  position: fixed;
+}
+
+#headerLogo{
+  background-color: tomato;
+  width: 900px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  color: white;
+  align-content: center;
+  margin-left: 960px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+}
+
+
+#imagemLogo {
+  width: 150px;
+  height: 150px;
+  /* margin-top: 10px; */
+  margin-left: 870px;
+  position: absolute;
+}
+
+#container {
+  background-color: white;
+  width: 960px;
+  height: 960px;
+  position: absolute;
+  align-content: center;
+  margin-left: 900px;
+  margin-top: 750px;
+}
+
+.divs {
+  background-color: bisque;
+}
+
+.divs img {
+  top: 35px;
+  left: 35px;
+  position: relative;
+}
+
+.nomeProduto {
+ width: 301px;
+ height: 50px;
+ text-align: center;
+ background-color: rgba(131, 124, 116, 0.5);
+ color: white;
+ font-weight: bold;
+ font-size: 20px;
+ vertical-align: middle;
+ line-height: 12px;
+}
+
+.verMais {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(226, 21, 21);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  vertical-align: middle;
+  line-height: 12px;
+}
+
+.etiqueta {
+  width: 65px;
+  height: 65px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 22px;
+}
+
+
+
+
+#produto1 {
+  width: 300px;
+  height: 300px;
+  left: 10px;
+  top: 10px;
+  position: relative;
+  border: 1px solid black;
+}
+
+#tablet1{
+  left: 10px;
+  top: 160px;
+  position: absolute;
+}
+
+#verTablet1{
+  top: 260px;
+  left: 110px;
+  position: absolute;
+}
+
+#etTablet1{
+  background-color: rgb(31, 204, 51);
+  top: 11px;
+  left: 246px;
+  position: absolute;
+}
+
+
+
+
+#produto2 {
+  width: 300px;
+  height: 300px;
+  left: 327.5px;
+  top: 10px;
+  position: absolute;
+  border: 1px solid black;
+}
+
+#tablet2{
+  left: 330px;
+  top: 160px;
+  position: absolute;
+}
+
+#verTablet2{
+  top: 260px;
+  left: 430px;
+  position: absolute;
+}
+
+#etTablet2{
+  background-color: rgb(212, 26, 26);
+  top: 11px;
+  left: 565px;
+  position: absolute;
+}
+
+
+
+#produto3 {
+  width: 300px;
+  height: 300px;
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  border: 1px solid black;
+}
+
+#tablet3{
+  left: 646px;
+  top: 160px;
+  position: absolute;
+}
+
+#verTablet3{
+  top: 260px;
+  left: 750px;
+  position: absolute;
+}
+
+#etTablet3{
+  background-color: rgb(32, 134, 236);
+  top: 11px;
+  left: 883px;
+  position: absolute;
+}
+
+
+
+
+#produto4 {
+  width: 300px;
+  height: 300px;
+  left: 10px;
+  top: 5px;
+  position: relative;
+  border: 1px solid black;
+}
+
+#celular1{
+  left: 10px;
+  top: 490px;
+  position: absolute;
+}
+
+#verCelular1{
+  top: 575px;
+  left: 110px;
+  position: absolute;
+}
+
+#etCelular1{
+  background-color: rgb(212, 26, 26);
+  top: 330px;
+  left: 246px;
+  position: absolute;
+}
+
+
+
+
+#produto5 {
+  width: 300px;
+  height: 300px;
+  left: 327.5px;
+  top: 327.5px;
+  position: absolute;
+  border: 1px solid black;
+}
+
+#celular2{
+  left: 330px;
+  top: 490px;
+  position: absolute;
+}
+
+#verCelular2{
+  top: 575px;
+  left: 430px;
+  position: absolute;
+}
+
+#etCelular2{
+  background-color: rgb(32, 134, 236);
+  top: 330px;
+  left: 565px;
+  position: absolute;
+}
+
+
+
+
+#produto6 {
+  width: 300px;
+  height: 300px;
+  right: 10px;
+  top: 327.5px;
+  position: absolute;
+  border: 1px solid black;
+}
+
+#celular3{
+  left: 646px;
+  top: 490px;
+  position: absolute;
+}
+
+#verCelular3{
+  top: 575px;
+  left: 750px;
+  position: absolute;
+}
+
+#etCelular3{
+  background-color: rgb(31, 204, 51);
+  top: 330px;
+  left: 883px;
+  position: absolute;
+}
+
+
+
+
+#produto7 {
+  width: 300px;
+  height: 300px;
+  left: 10px;
+  top: 1px;
+  position: relative;
+  border: 1px solid black;
+}
+
+#pc1{
+  left: 10px;
+  top: 810px;
+  position: absolute;
+}
+
+#verPc1{
+  top: 890px;
+  left: 110px;
+  position: absolute;
+}
+
+#etPc1{
+  background-color: rgb(31, 204, 51);
+  top: 647px;
+  left: 246px;
+  position: absolute;
+}
+
+
+
+#produto8 {
+  width: 300px;
+  height: 300px;
+  left: 327.5px;
+  top: 645px;
+  position: absolute;
+  border: 1px solid black;
+}
+
+#pc2{
+  left: 330px;
+  top: 810px;
+  position: absolute;
+}
+
+#verPc2{
+  top: 890px;
+  left: 430px;
+  position: absolute;
+}
+
+#etPc2{
+  background-color: rgb(212, 26, 26);
+  top: 647px;
+  left: 565px;
+  position: absolute;
+}
+
+
+
+
+#produto9 {
+  width: 300px;
+  height: 300px;
+  right: 10px;
+  top: 645px;
+  position: absolute;
+  border: 1px solid black;
+}
+
+#pc3{
+  left: 646px;
+  top: 810px;
+  position: absolute;
+}
+
+#verPc3{
+  top: 890px;
+  left: 750px;
+  position: absolute;
+}
+
+#etPc3{
+  background-color: rgb(32, 134, 236);
+  top: 647px;
+  left: 883px;
+  position: absolute;
+}
+
+
+
+
+#texto {
+    width: 500px;
+    height: 300px;
+    border: black solid 2px;
+    background-color: white;
+    top: 190px;
+    left: 550px;
+    position: absolute;
+}
+
+#texto p{
+  font-size: 21px;
+  font-weight: bold;
+  top: 200px;
+  left: 40px;
+  /* position: relative; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
