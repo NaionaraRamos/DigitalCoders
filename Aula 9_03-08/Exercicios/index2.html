@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Receber nome e sobrenome de um formulário</title>
+</head>
+
+<body>
+    <form id="form1" onsubmit="getFormvalue()">
+        First name:<br>
+        <input type="text" name="nome" id="nome" value="Neymar">
+        <br>
+        Last name:<br>
+        <input type="text" name="sobrenome" id="sobrenome" value="Jr">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+<script>
+
+    function getFormvalue(){
+       // var nome = document.getElementsByName('nome').value;
+       // var sobrenome = document.getElementsByName('sobrenome').value;
+        var nome = document.getElementById('nome').value;
+        var sobrenome = document.getElementById('sobrenome').value;
+        var nomeCompleto = nome + " " + sobrenome;
+        alert(nomeCompleto);
+       // console.log(nomeCompleto);
+    }
+</script>
+</html>
